@@ -3,8 +3,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 choco upgrade chocolatey
 
 choco install jre8
-choco install jdk8
-
 choco install 7zip.install
 choco install googlechrome
 choco install brave
@@ -17,8 +15,6 @@ choco install steam
 choco install dropbox
 choco install googledrive
 choco install docker
-choco install nodejs
-choco install yarn
 choco install slack
 choco install battle.net
 choco install webtorrent-desktop
