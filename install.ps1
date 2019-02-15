@@ -23,8 +23,3 @@ choco install plexmediaserver
 # Streamlink
 choco install streamlink
 choco install streamlink-twitch-gui
-
-#choco install dotnetcore
-#choco install dotnetcore-sdk
-#choco install dotnet4.7
-#choco install nunit.install
