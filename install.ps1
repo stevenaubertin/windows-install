@@ -36,7 +36,6 @@ choco install plexmediaserver
 
 # Vagrant
 choco install vagrant
-vagrant plugin install vagrant-git
 
 # Streamlink
 choco install streamlink
