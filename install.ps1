@@ -34,6 +34,10 @@ choco install battle.net
 choco install webtorrent-desktop
 choco install plexmediaserver
 
+# Vagrant
+choco install vagrant
+vagrant plugin install vagrant-git
+
 # Streamlink
 choco install streamlink
 choco install streamlink-twitch-gui
