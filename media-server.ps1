@@ -21,6 +21,7 @@ choco install jre8
 choco install dotnet
 choco install sql-server-express
 choco install postgresql
+pip install tvnamer
 
 # Browser
 choco install googlechrome
