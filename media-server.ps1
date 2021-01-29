@@ -13,8 +13,9 @@ CreateDirectory("$env:USERPROFILE\repo")
 # Install Chocolatey
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-# Install programs
+# Update/Upgrade
 choco upgrade chocolatey
+python -m pip install --upgrade pip
 
 # Dependencies
 choco install jre8
