@@ -8,7 +8,7 @@ function CreateDirectory([string]$directorypath, [switch]$verbose){
         mkdir $directorypath
     }
 }
-CreateDirectory("$env:USERPROFILE/repo")
+CreateDirectory("$env:USERPROFILE\repo")
 
 # Install Chocolatey
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
