@@ -24,10 +24,6 @@ choco install sql-server-express
 choco install postgresql
 pip install tvnamer
 
-# Browser
-choco install googlechrome
-choco install brave
-
 # Media
 choco install vlc
 choco install plex
