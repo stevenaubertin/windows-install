@@ -74,3 +74,4 @@ choco install docker-cli
 
 # Audio
 choco install audacity
+choco install asio4all
