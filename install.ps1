@@ -16,41 +16,61 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 # Install programs
 choco upgrade chocolatey
 
+# Dependencies
+choco install jre8
+choco install dotnet
+choco install sql-server-express
+choco install postgresql
+
 # IDE
 choco install vscode
-choco install visualstudio2017enterprise
+choco install azure-data-studio
+choco install visualstudio2019community
 
 # Browser
 choco install googlechrome
 choco install brave
 
-# Dependencies
-choco install jre8
-
 # Media
-choco install plexmediaserver
 choco install vlc
 choco install spotify
 
 # Gaming
 choco install steam
 choco install battle.net
+choco install epicgameslauncher
 
 # Utils
+choco install git
 choco install greenshot
+choco install 7zip.install
+choco install sublimetext3
+choco install postman
+choco install rufus
+choco install irfanview
+choco install windirstat
+choco install rpi-imager
+choco install virtualbox
+
+# Storage
 choco install dropbox
 choco install googledrive
-choco install 7zip.install
+choco install megasync
 
 # Communication
 choco install slack
+choco install discord
+choco install signal
+choco install keybase
 
 # Torrent
 choco install transmission
+choco install webtorrent-desktop
 
-# Vagrant
-choco install vagrant
+# Docker
+choco install docker-desktop
+choco install docker-compose
+choco install docker-cli
 
-# Streamlink
-choco install streamlink
-choco install streamlink-twitch-gui
+# Audio
+choco install audacity
