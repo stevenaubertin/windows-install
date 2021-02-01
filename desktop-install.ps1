@@ -41,6 +41,7 @@ choco install battle.net
 choco install epicgameslauncher
 
 # Utils
+choco install microsoft-windows-terminal
 choco install git
 choco install greenshot
 choco install 7zip.install
