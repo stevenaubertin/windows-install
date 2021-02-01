@@ -31,6 +31,7 @@ choco install radarr
 choco install sonarr
 
 # Utils
+choco install microsoft-windows-terminal
 choco install git
 choco install 7zip.install
 choco install windirstat
