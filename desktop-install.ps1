@@ -34,6 +34,7 @@ choco install brave
 # Media
 choco install vlc
 choco install spotify
+choco install ffmpeg
 
 # Gaming
 choco install steam
