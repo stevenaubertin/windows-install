@@ -20,6 +20,8 @@ python -m pip install --upgrade pip
 # Dependencies
 choco install jre8
 choco install dotnet
+
+# Database
 choco install sql-server-express
 choco install postgresql
 
@@ -78,3 +80,6 @@ choco install docker-cli
 # Audio
 choco install audacity
 choco install asio4all
+
+# Network
+choco install openvpn
