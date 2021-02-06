@@ -27,6 +27,7 @@ pip install tvnamer
 # Media
 choco install vlc
 choco install plex
+choco install ffmpeg
 choco install radarr
 choco install sonarr
 
