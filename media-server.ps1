@@ -56,3 +56,6 @@ choco install docker-cli
 choco install asio4all
 choco install picard
 choco install eac
+
+# Network
+choco install openvpn
