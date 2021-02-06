@@ -15,6 +15,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 
 # Install programs
 choco upgrade chocolatey
+python -m pip install --upgrade pip
 
 # Dependencies
 choco install jre8
