@@ -37,6 +37,8 @@ choco install git
 choco install 7zip.install
 choco install windirstat
 choco install virtualbox
+choco install ntop.portable
+choco install powertoys
 
 # Storage
 choco install dropbox

@@ -57,6 +57,7 @@ choco install windirstat
 choco install rpi-imager
 choco install virtualbox
 choco install ntop.portable
+choco install powertoys
 
 # Storage
 choco install dropbox
