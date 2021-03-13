@@ -56,6 +56,7 @@ choco install irfanview
 choco install windirstat
 choco install rpi-imager
 choco install virtualbox
+choco install ntop.portable
 
 # Storage
 choco install dropbox
