@@ -58,6 +58,7 @@ choco install rpi-imager
 choco install virtualbox
 choco install ntop.portable
 choco install powertoys
+choco install powershell-core
 
 # Storage
 choco install dropbox
