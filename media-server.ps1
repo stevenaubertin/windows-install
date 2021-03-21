@@ -39,6 +39,8 @@ choco install windirstat
 choco install virtualbox
 choco install ntop.portable
 choco install powertoys
+choco install powershell-core
+choco install grep
 
 # Storage
 choco install dropbox
