@@ -28,11 +28,15 @@ choco install postgresql
 # IDE
 choco install vscode
 choco install azure-data-studio
-choco install visualstudio2019community
+choco install visualstudio2022community
 
 # Browser
 choco install googlechrome
 choco install brave
+
+# Audio
+choco install audacity
+choco install asio4all
 
 # Media
 choco install vlc
@@ -41,8 +45,8 @@ choco install ffmpeg
 
 # Gaming
 choco install steam
-choco install battle.net
-choco install epicgameslauncher
+#choco install battle.net
+#choco install epicgameslauncher
 
 # Utils
 choco install microsoft-windows-terminal
@@ -50,6 +54,7 @@ choco install git
 choco install greenshot
 choco install 7zip.install
 choco install sublimetext3
+choco install sublimemerge
 choco install postman
 choco install rufus
 choco install irfanview
@@ -60,6 +65,7 @@ choco install ntop.portable
 choco install powertoys
 choco install powershell-core
 choco install grep
+choco install Less
 
 # Storage
 choco install dropbox
@@ -80,10 +86,6 @@ choco install webtorrent-desktop
 choco install docker-desktop
 choco install docker-compose
 choco install docker-cli
-
-# Audio
-choco install audacity
-choco install asio4all
 
 # Network
 choco install openvpn
