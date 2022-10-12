@@ -66,6 +66,7 @@ choco install powertoys
 choco install powershell-core
 choco install grep
 choco install Less
+pip install pygments
 
 # Storage
 choco install dropbox
