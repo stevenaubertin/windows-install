@@ -77,7 +77,6 @@ choco install megasync
 choco install slack
 choco install discord
 choco install signal
-choco install keybase
 
 # Torrent
 choco install transmission
