@@ -23,7 +23,7 @@ choco install dotnet
 
 # Database
 choco install sql-server-express
-choco install postgresql
+#choco install postgresql
 
 # IDE
 choco install vscode
@@ -51,6 +51,7 @@ choco install steam
 # Utils
 choco install microsoft-windows-terminal
 choco install git
+choco install github-desktop
 choco install greenshot
 choco install 7zip.install
 choco install sublimetext3
@@ -69,8 +70,8 @@ choco install Less
 pip install pygments
 
 # Storage
-choco install dropbox
-choco install googledrive
+#choco install dropbox
+#choco install googledrive
 choco install megasync
 
 # Communication
@@ -89,3 +90,5 @@ choco install docker-cli
 
 # Network
 choco install openvpn
+
+# Clone some repositories
