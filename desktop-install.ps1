@@ -67,6 +67,7 @@ choco install powertoys
 choco install powershell-core
 choco install grep
 choco install Less
+choco install devtoys
 pip install pygments
 
 # Storage
