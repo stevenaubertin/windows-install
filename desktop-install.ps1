@@ -68,6 +68,8 @@ choco install powershell-core
 choco install grep
 choco install Less
 choco install devtoys
+choco install rclone
+choco install rsync
 pip install pygments
 
 # Storage
