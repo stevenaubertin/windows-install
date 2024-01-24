@@ -1,28 +1,11 @@
-# Create some directories
-function CreateDirectory([string]$directorypath, [switch]$verbose){
-    if($verbose){
-        Write-Host "Creating directory $directorypath"
-        mkdir $directorypath -Verbose
-    }
-    else{
-        mkdir $directorypath
-    }
-}
-CreateDirectory("$env:USERPROFILE\repo")
-
-# Install Chocolatey
-Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-
-# Install programs
-choco upgrade chocolatey
-python -m pip install --upgrade pip
+./base-install.ps1
 
 # Dependencies
 choco install jre8
 choco install dotnet
 
 # Database
-choco install sql-server-express
+#choco install sql-server-express
 #choco install postgresql
 
 # IDE
@@ -36,17 +19,17 @@ choco install brave
 
 # Audio
 choco install audacity
-choco install asio4all
+choco install ffmpeg
+#choco install asio4all
 
 # Media
 choco install vlc
 choco install spotify
-choco install ffmpeg
 
 # Gaming
 choco install steam
-#choco install battle.net
-#choco install epicgameslauncher
+choco install battle.net
+choco install epicgameslauncher
 
 # Utils
 choco install microsoft-windows-terminal
@@ -64,7 +47,6 @@ choco install rpi-imager
 choco install virtualbox
 choco install ntop.portable
 choco install powertoys
-choco install powershell-core
 choco install grep
 choco install Less
 choco install devtoys
@@ -80,7 +62,7 @@ choco install megasync
 # Communication
 choco install slack
 choco install discord
-choco install signal
+#choco install signal
 
 # Torrent
 choco install transmission

@@ -1,21 +1,4 @@
-# Create some directories
-function CreateDirectory([string]$directorypath, [switch]$verbose){
-    if($verbose){
-        Write-Host "Creating directory $directorypath"
-        mkdir $directorypath -Verbose
-    }
-    else{
-        mkdir $directorypath
-    }
-}
-CreateDirectory("$env:USERPROFILE\repo")
-
-# Install Chocolatey
-Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-
-# Update/Upgrade
-choco upgrade chocolatey
-python -m pip install --upgrade pip
+./base-install.ps1
 
 # Dependencies
 choco install jre8
@@ -63,3 +46,5 @@ choco install eac
 
 # Network
 choco install openvpn
+
+# Utilities from private Git
