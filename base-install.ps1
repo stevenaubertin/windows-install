@@ -21,10 +21,10 @@ choco install jre8
 choco install dotnet
 
 # Terminal
+choco install powershell-core
 choco install microsoft-windows-terminal
 choco install ntop.portable
 choco install grep
-choco install powershell-core
 choco install Less
 choco install rclone
 choco install rsync
