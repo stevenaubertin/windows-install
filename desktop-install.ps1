@@ -3,21 +3,20 @@
 # Database
 #choco install sql-server-express
 #choco install postgresql
+choco install dbeaver
 
 # IDE
 choco install vscode
-choco install azure-data-studio
 choco install visualstudio2022community
-choco install dbeaver
 
 # Audio
 choco install audacity
-choco install ffmpeg
 #choco install asio4all
 
 # Media
 choco install vlc
 choco install spotify
+#youtube-dl
 
 # Gaming
 choco install steam
@@ -28,11 +27,10 @@ choco install epicgameslauncher
 choco install github-desktop
 choco install greenshot
 choco install postman
-choco install rufus
-choco install irfanview
-choco install rpi-imager
-choco install powertoys
-choco install devtoys
+choco install irfanview #todo also install plugins
+
+# Images
+choco install inkscape
 
 # Storage
 #choco install dropbox
@@ -47,8 +45,5 @@ choco install discord
 # Torrent
 choco install transmission
 choco install webtorrent-desktop
-
-# Network
-choco install openvpn
 
 # Utilities from private Git

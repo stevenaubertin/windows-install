@@ -1,47 +1,47 @@
-# Create some directories
-function CreateDirectory([string]$directorypath, [switch]$verbose){
-    if($verbose){
-        Write-Host "Creating directory $directorypath"
-        mkdir $directorypath -Verbose
-    }
-}
-CreateDirectory("$env:USERPROFILE\repo")
-
-# Install Chocolatey
-#Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; 
-iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'));
-
-# Update
-choco upgrade chocolatey
-python -m pip install --upgrade pip
-
-# Dependencies
-choco install jre8
-choco install dotnet
 
 # Terminal
-choco install powershell-core
-choco install microsoft-windows-terminal
+winget install Microsoft.WindowsTerminal
+#choco install powershell-core
+#choco install microsoft-windows-terminal
 choco install ntop.portable
 choco install grep
 choco install Less
-choco install rclone
-choco install rsync
 pip install pygments
 
 # Utilities
 choco install git
-choco install 7zip.install
-choco install windirstat
-choco install sublimetext3
+choco install gh
+
 choco install sublimemerge
+choco install sublimetext3
+
+choco install 7zip.install
+
+choco install devtoys
+choco install powertoys
+
+choco install rsync
+choco install rclone
+
+choco install nano
+choco isntall obsidian
+
+choco install windirstat
+
+# Audio
+choco install ffmpeg
 
 # Browser
 choco install googlechrome
 choco install brave
+choco install firefox
 
 # Docker
 choco install docker-desktop
 choco install docker-compose
-choco install docker-cli
+#choco install docker-cli
+
+# Network
+choco install openvpn
+choco install openssh
+#choco install protonvpn
