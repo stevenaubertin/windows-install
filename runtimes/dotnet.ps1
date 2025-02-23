@@ -1,5 +1,5 @@
 # Core
-dotnetcore 3.1.32
+choco install dotnetcore
 
 # .NET
 choco install dotnet
