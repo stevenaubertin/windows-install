@@ -1,24 +1,26 @@
-# Install Chocolatey
-./programs/chocolatey.ps1
-
-# Install Winget
-./programs/winget.ps1
-
-# Install Python
+# Install runner Powershell, Python
+## Install Python
 ./programs/python.ps1
+
+## Install Powershell
+./programs/powershell.ps1
+
+# Install Packages Managers
+./programs/chocolatey.ps1
+./programs/winget.ps1
 
 # Install Runtimes
 ./runtimes/java.ps1
 ./runtimes/dotnet.ps1
 
-# Install SDK
+# Setup Profiles (Term and friends)
 
 # Setup ENV
 ## Create directories
 ## Get Wallpapers
 ##
 
-# Setup Profiles (Term and friends)
+# Install SDK
 
 # Secrets
 
